@@ -1,6 +1,6 @@
 {
   "name": "winston-ravendb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A RavenDb transport implementation for winston",
   "main": "./lib/winston-ravendb",
   "directories": {

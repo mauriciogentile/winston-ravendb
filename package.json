@@ -7,7 +7,10 @@
     "test": "tests"
   },
   "dependencies": {
-    "ravendb": "~0.0.24"
+    "ravenjs": "~1.1.1",
+    "winston": "~0.6.2",
+    "node-uuid": "~1.4.0",
+    "lodash": "~1.1.1"
   },
   "devDependencies": {},
   "scripts": {

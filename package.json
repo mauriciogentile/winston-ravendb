@@ -1,0 +1,26 @@
+{
+  "name": "winston-ravendb",
+  "version": "0.0.1",
+  "description": "A RavenDb transport implementation for winston",
+  "main": "./lib/winston-ravendb",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ravendb": "~0.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "loggin",
+    "winston",
+    "raven",
+    "ravendb"
+  ],
+  "author": "Mauricio Gentile",
+  "license": "MIT",
+  "readmeFilename": "Readme.MD"
+}

@@ -19,40 +19,43 @@ A RavenDB transport for [winston][0].
 #### Filter by level
 
 ``` js
-	logger.query({level: "error"}, function(err, results) {
-		if(err) {
-			//error handling
-		}
-		//do something
-	});
+logger.query({level: "error"}, function(err, results) {
+	if(err) {
+		//error handling
+	}
+	//do something
+});
 ```
 
 #### Filter by dates
 
 ``` js
-	logger.query({from: "2013-01-01", to: 2013-12-31}, function(err, results) {
-		if(err) {
-			//error handling
-		}
-		//do something
-	});
+logger.query({from: "2013-01-01", to: 2013-12-31}, function(err, results) {
+	if(err) {
+		//error handling
+	}
+	//do something
+});
 ```
 
 #### Filter using lucene
 
 ``` js
-	logger.luceneQuery("myQuickIndex", "timestamp:[2013-01-01 TO 2013-04-02] AND level:NULL", function(err, results) {
-		if(err) {
-			//error handling
-		}
-		//do something
-	});
+logger.luceneQuery("myQuickIndex", "timestamp:[2013-01-01 TO 2013-04-02] AND level:NULL", function(err, results) {
+	if(err) {
+		//error handling
+	}
+	//do something
+});
 ```
 
 #### Filter using fluent api
 
 ``` js
-	logger.query("myQuickIndex").where("level").is("error").results(function(err, results) {
+logger.query("myCustomQuickIndex")
+	.where("level")
+	.is("error")
+	.results(function(err, results) {
 		if(err) {
 			//error handling
 		}

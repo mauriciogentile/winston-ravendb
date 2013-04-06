@@ -17,12 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "keywords": [
-    "loggin",
-    "winston",
-    "raven",
-    "ravendb"
-  ],
+  "keywords": ["logging","winston","raven","ravendb","node.js"],
   "author": "Mauricio Gentile",
   "license": "MIT",
   "readmeFilename": "Readme.MD"
